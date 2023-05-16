@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.formAddProduct {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.formAddProduct > label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formAddProduct > input {
+  width: 100%;
+  padding: 10px 5px;
+}
